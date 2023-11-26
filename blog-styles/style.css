@@ -43,8 +43,6 @@ body {
   font-size: 18px;
 }
 
-
-
 main {
   display: flex;
   flex-direction: column;
@@ -212,6 +210,12 @@ hr {
 }
 
 @media only screen and (max-width: 767px) {
+  .nav {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
   .container {
     width: 74%;
   }
